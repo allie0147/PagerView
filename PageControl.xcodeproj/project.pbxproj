@@ -16,6 +16,8 @@
 		24AEECF825A2F6FB0073B60A /* PageImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AEECF725A2F6FB0073B60A /* PageImageView.xib */; };
 		24AEECFD25A300830073B60A /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AEECFC25A300830073B60A /* PageControlViewController.xib */; };
 		24AEED0125A303BB0073B60A /* PageImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEED0025A303BB0073B60A /* PageImageView.swift */; };
+		24FE9A0025A3EAC7003B7FB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE99FF25A3EAC7003B7FB1 /* MainViewController.swift */; };
+		24FE9A0425A3F75D003B7FB1 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE9A0325A3F75D003B7FB1 /* CustomPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		24AEECF725A2F6FB0073B60A /* PageImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageImageView.xib; sourceTree = "<group>"; };
 		24AEECFC25A300830073B60A /* PageControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
 		24AEED0025A303BB0073B60A /* PageImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageImageView.swift; sourceTree = "<group>"; };
+		24FE99FF25A3EAC7003B7FB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		24FE9A0325A3F75D003B7FB1 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				24AEECF625A2F6D10073B60A /* PageImageView */,
 				24AEECE025A2F1730073B60A /* AppDelegate.swift */,
 				24AEECE225A2F1730073B60A /* SceneDelegate.swift */,
+				24FE99FF25A3EAC7003B7FB1 /* MainViewController.swift */,
 				24AEECE625A2F1730073B60A /* Main.storyboard */,
 				24AEECE925A2F1770073B60A /* Assets.xcassets */,
 				24AEECEB25A2F1770073B60A /* LaunchScreen.storyboard */,
@@ -77,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				24AEECE425A2F1730073B60A /* PageControlViewController.swift */,
-				24AEECF725A2F6FB0073B60A /* PageImageView.xib */,
 				24AEECFC25A300830073B60A /* PageControlViewController.xib */,
 				24AEED0025A303BB0073B60A /* PageImageView.swift */,
+				24AEECF725A2F6FB0073B60A /* PageImageView.xib */,
+				24FE9A0325A3F75D003B7FB1 /* CustomPageControl.swift */,
 			);
 			path = PageImageView;
 			sourceTree = "<group>";
@@ -158,8 +164,10 @@
 			files = (
 				24AEECE525A2F1730073B60A /* PageControlViewController.swift in Sources */,
 				24AEED0125A303BB0073B60A /* PageImageView.swift in Sources */,
+				24FE9A0425A3F75D003B7FB1 /* CustomPageControl.swift in Sources */,
 				24AEECE125A2F1730073B60A /* AppDelegate.swift in Sources */,
 				24AEECE325A2F1730073B60A /* SceneDelegate.swift in Sources */,
+				24FE9A0025A3EAC7003B7FB1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

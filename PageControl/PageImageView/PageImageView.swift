@@ -2,7 +2,7 @@
 //  PageImageView.swift
 //  PageControl
 //
-//  Created by ishift on 2021/01/04.
+//  Created by Allie im on 2021/01/04.
 //
 
 import UIKit
@@ -21,16 +21,15 @@ class PageImageView: UIView {
         commonInit()
     }
 
+    // add xib file to subView
     private func commonInit() {
         let view = Bundle.main.loadNibNamed(String(describing: PageImageView.self), owner: self, options: nil)?.first as! UIView
         view.frame = self.bounds
         self.addSubview(view)
     }
 
+    // image setting: 가장 먼저 실행
     public func settingLayout(index: Int) {
-        guard index == 10 else {
-            pageImageView.image = UIImage(named: "image_0\(index)")
-        }
-        pageImageView.image = UIImage(named: "image_10")
+        pageImageView.image = UIImage(named: "image_0\(index)")
     }
 }

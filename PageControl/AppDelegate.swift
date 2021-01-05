@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PageControl
 //
-//  Created by ishift on 2021/01/04.
+//  Created by Allie Kim on 2021/01/04.
 //
 
 import UIKit
